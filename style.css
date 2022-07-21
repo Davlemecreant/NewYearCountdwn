@@ -65,12 +65,17 @@ h1 {
     font-size: 2rem;
   }
 
-  .text {
-    font-size: 4rem;
-    font-weight: 600;
+  .countdown-container {
+    display: flex;
+    flex-direction: column;
   }
 
-  .countdown-elem span {
-    font-size: 1.2rem;
+  .text {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .countdown span {
+    font-size: 2rem;
   }
 }

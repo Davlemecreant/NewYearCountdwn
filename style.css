@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(12, 8, 37);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Fredoka One", cursive;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 400;
+  margin-top: 5rem;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text {
+  font-size: 8rem;
+  font-weight: 800;
+
+  margin: 1rem 2rem;
+}
+
+.countdown-elem {
+  text-align: center;
+}
+
+.countdown-elem span {
+  font-size: 2rem;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1400px) {
+
+    h1 {
+        font-size: 4rem;
+
+      }
+}
+
+@media only screen and (max-width: 500px) {
+
+    h1 {
+        font-size: 2rem;
+
+      }
+}

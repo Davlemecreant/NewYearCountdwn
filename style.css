@@ -46,17 +46,31 @@ h1 {
 /* Responsive */
 
 @media only screen and (max-width: 1400px) {
+  h1 {
+    font-size: 4rem;
+  }
 
-    h1 {
-        font-size: 4rem;
+  .text {
+    font-size: 6rem;
+    font-weight: 600;
+  }
 
-      }
+  .countdown-elem span {
+    font-size: 1.6rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
 
-    h1 {
-        font-size: 2rem;
+  .text {
+    font-size: 4rem;
+    font-weight: 600;
+  }
 
-      }
+  .countdown-elem span {
+    font-size: 1.2rem;
+  }
 }
